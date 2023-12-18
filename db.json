@@ -1,9 +1,1048 @@
 {
-  "posts": [
-    { "id": 1, "title": "eazimart-json-server", "author": "typicode" }
+  "homeData": [
+    {
+      "item": "Airpods",
+      "info": "Over 100+ airpods & Discount ",
+      "img": "/slideairpodsmain.svg"
+    },
+    {
+      "item": "Iphones",
+      "info": "Over 100+ airpods & Discount ",
+      "img": "/homeSlideBig2.png"
+    },
+    {
+      "item": "Watches",
+      "info": "Over 100+ airpods & Discount ",
+      "img": "/slideairpodsmain.svg"
+    },
+    {
+      "item": "Furniture",
+      "info": "Over 100+ airpods & Discount ",
+      "img": "/homeSlideBig2.png"
+    },
+    {
+      "item": "BodySpray",
+      "info": "Over 100+ airpods & Discount ",
+      "img": "/slideairpodsmain.svg"
+    }
   ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 }
+  "homeWatchData": [
+    {
+      "item": "Rolex",
+      "info": "Over 100+ watches & Discount ",
+      "img": "/homeSlideBig2.png"
+    },
+    {
+      "item": "Versace",
+      "info": "Over 100+ watches & Discount ",
+      "img": "/slideairpodsmain.svg"
+    },
+    {
+      "item": "Diesel",
+      "info": "Over 100+ watches & Discount ",
+      "img": "/homeSlideBig2.png"
+    },
+    {
+      "item": "Poch",
+      "info": "Over 100+ watches & Discount ",
+      "img": "/slideairpodsmain.svg"
+    },
+    {
+      "item": "G-Shock",
+      "info": "Over 100+ watches & Discount ",
+      "img": "/homeSlideBig2.png"
+    }
   ],
-  "profile": { "name": "typicode" }
+  "watchCategories": [
+    {
+      "id": 1,
+      "img": "/cartWatch.png",
+      "brand": "Rolex "
+    },
+    {
+      "id": 2,
+      "img": "/productProDetailWatch2.png",
+      "brand": "Versace "
+    },
+    {
+      "id": 3,
+      "img": "/productProDetailWatch3.png",
+      "brand": "G-Gun "
+    },
+    {
+      "id": 4,
+      "img": "/productProDetailWatch4.png",
+      "brand": "Rolex "
+    },
+    {
+      "id": 5,
+      "img": "/productProDetailWatch5.png",
+      "brand": "Poch "
+    },
+    {
+      "id": 6,
+      "img": "/productProDetailWatch6.png",
+      "brand": "Diesel "
+    },
+    {
+      "id": 7,
+      "img": "/productProDetailWatch7.png",
+      "brand": "Echez "
+    },
+    {
+      "id": 8,
+      "img": "/productProDetailWatch8.png",
+      "brand": "John Smith "
+    },
+    {
+      "id": 9,
+      "img": "/cartWatch.png",
+      "brand": "Zara "
+    },
+    {
+      "id": 10,
+      "img": "/cartWatch.png",
+      "brand": "Balenciaga"
+    },
+    {
+      "id": 11,
+      "img": "/cartWatch.png",
+      "brand": "Off-White"
+    }
+  ],
+  "newProducts": [
+    {
+      "id": 9,
+      "name": "Iphone 6s+",
+      "price": "10,000N",
+      "image": "/productProDetailWatch2.png",
+      "discounted": true,
+      "color": "black/brown",
+      "shippingFee": 500
+    },
+    {
+      "id": 10,
+      "name": "Origin shirt",
+      "price": "3,000N",
+      "image": "/productProDetailWatch3.png",
+      "discounted": true,
+      "color": "black/brown",
+      "shippingFee": 500
+    },
+    {
+      "id": 11,
+      "name": "Canon 360px",
+      "price": "200,000N",
+      "image": "/productProDetailWatch4.png",
+      "discounted": true,
+      "color": "black/brown",
+      "shippingFee": 500
+    },
+    {
+      "id": 12,
+      "name": "Evans",
+      "price": "10,000N",
+      "image": "/productProDetailWatch5.png",
+      "discounted": true,
+      "color": "black/brown",
+      "shippingFee": 500
+    },
+    {
+      "id": 13,
+      "name": "PlayStation 5",
+      "price": "500,000N",
+      "image": "/productProDetailWatch6.png",
+      "discounted": true,
+      "color": "black/brown",
+      "shippingFee": 500
+    },
+    {
+      "id": 14,
+      "name": "Fan",
+      "price": "8,000N",
+      "image": "/productProDetailWatch7.png",
+      "discounted": true,
+      "color": "black/brown",
+      "shippingFee": 500
+    },
+    {
+      "id": 15,
+      "name": "Hp Laptop",
+      "price": "90,000N",
+      "image": "/productProDetailWatch8.png",
+      "discounted": true,
+      "color": "black/brown",
+      "shippingFee": 500
+    },
+    {
+      "id": 16,
+      "name": "Airpod",
+      "price": "8,000N",
+      "image": "/productProDetailWatch.png",
+      "discounted": true,
+      "color": "black/brown",
+      "shippingFee": 500
+    }
+  ],
+  "vendors": [
+    {
+      "id": 1,
+      "name": "G-Tech",
+      "bio": "I sell phones, laptop and games",
+      "about": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam repellendus vero quaerat dolorem numquam reprehenderit voluptate dolore ab id aspernatur.",
+      "image": "/newplaystation5.svg",
+      "location": "Awka",
+      "store": "./"
+    },
+    {
+      "id": 2,
+      "name": "Vivy-Collections",
+      "bio": "I sell phones, laptop and games",
+      "about": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam repellendus vero quaerat dolorem numquam reprehenderit voluptate dolore ab id aspernatur.",
+      "image": "/newhplaptop.svg",
+      "location": "Onitsha",
+      "store": "./"
+    },
+    {
+      "id": 3,
+      "name": "LG",
+      "bio": "I sell phones, laptop and games",
+      "about": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam repellendus vero quaerat dolorem numquam reprehenderit voluptate dolore ab id aspernatur.",
+      "image": "/newevans.svg",
+      "location": "Lagos",
+      "store": "./"
+    },
+    {
+      "id": 4,
+      "name": "Electro",
+      "bio": "I sell phones, laptop and games",
+      "about": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam repellendus vero quaerat dolorem numquam reprehenderit voluptate dolore ab id aspernatur.",
+      "image": "/newiphone6.svg",
+      "location": "Enugu",
+      "store": "./"
+    }
+  ],
+  "bestSellers": [
+    {
+      "id": 1,
+      "name": "Iphone 6s+",
+      "price": "10,000N",
+      "image": "/newiphone6.svg",
+      "discounted": true,
+      "color": "black/brown",
+      "vendor": "G-Tech",
+      "shippingFee": 500
+    },
+    {
+      "id": 2,
+      "name": "Origin shirt",
+      "price": "3,000N",
+      "image": " /neworiginshirt.svg",
+      "discounted": true,
+      "color": "black/brown",
+      "vendor": "Vivy-Collections",
+      "shippingFee": 500
+    },
+    {
+      "id": 3,
+      "name": "Canon 360px",
+      "price": "200,000N",
+      "image": "/newcanon360px.svg",
+      "discounted": true,
+      "color": "black/brown",
+      "vendor": "LG",
+      "shippingFee": 500
+    },
+    {
+      "id": 4,
+      "name": "Evans",
+      "price": "10,000N",
+      "image": "/newevans.svg",
+      "discounted": true,
+      "color": "black/brown",
+      "vendor": "Electro",
+      "shippingFee": 500
+    },
+    {
+      "id": 5,
+      "name": "PlayStation 5",
+      "price": "500,000N",
+      "image": "/newplaystation5.svg",
+      "discounted": true,
+      "color": "black/brown",
+      "vendor": "G-Tech",
+      "shippingFee": 500
+    },
+    {
+      "id": 6,
+      "name": "Fan",
+      "price": "8,000N",
+      "image": "/newfan.svg",
+      "discounted": true,
+      "color": "black/brown",
+      "vendor": "Vivy-Collections",
+      "shippingFee": 500
+    },
+    {
+      "id": 7,
+      "name": "Hp Laptop",
+      "price": "90,000N",
+      "image": "/newhplaptop.svg",
+      "discounted": true,
+      "color": "black/brown",
+      "vendor": "LG",
+      "shippingFee": 500
+    },
+    {
+      "id": 8,
+      "name": "Airpod",
+      "price": "8,000N",
+      "image": "/newairpod.svg",
+      "discounted": true,
+      "color": "black/brown",
+      "vendor": "Electro",
+      "shippingFee": 500
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "Phones",
+      "type": "Electronics",
+      "img": "/categoriesphone.png",
+      "rating": 5,
+      "homeData": [
+        {
+          "item": "Samsung",
+          "info": "Over 100+ Phones & Discount ",
+          "img": "/homeSlideBig2.png"
+        },
+        {
+          "item": "Iphone",
+          "info": "Over 100+ Phones & Discount ",
+          "img": "/slideairpodsmain.svg"
+        },
+        {
+          "item": "Techno",
+          "info": "Over 100+ Phones & Discount ",
+          "img": "/homeSlideBig2.png"
+        },
+        {
+          "item": "Infinix",
+          "info": "Over 100+ Phones & Discount ",
+          "img": "/slideairpodsmain.svg"
+        },
+        {
+          "item": "Gionee",
+          "info": "Over 100+ Phones & Discount ",
+          "img": "/homeSlideBig2.png"
+        }
+      ],
+      "categories": [
+        {
+          "id": 1,
+          "img": "/cartWatch.png",
+          "brand": "Techno"
+        },
+        {
+          "id": 2,
+          "img": "/productProDetailWatch2.png",
+          "brand": "Infinix"
+        },
+        {
+          "id": 3,
+          "img": "/productProDetailWatch3.png",
+          "brand": "Apple"
+        },
+        {
+          "id": 4,
+          "img": "/productProDetailWatch4.png",
+          "brand": "Gionee"
+        },
+        {
+          "id": 5,
+          "img": "/productProDetailWatch5.png",
+          "brand": "Redmii"
+        },
+        {
+          "id": 6,
+          "img": "/productProDetailWatch6.png",
+          "brand": "Motorolla"
+        },
+        {
+          "id": 7,
+          "img": "/productProDetailWatch7.png",
+          "brand": "Hawuii"
+        },
+        {
+          "id": 8,
+          "img": "/productProDetailWatch8.png",
+          "brand": "Microsoft"
+        },
+        {
+          "id": 9,
+          "img": "/cartWatch.png",
+          "brand": "Itel"
+        },
+        {
+          "id": 10,
+          "img": "/cartWatch.png",
+          "brand": "Nokia"
+        },
+        {
+          "id": 11,
+          "img": "/cartWatch.png",
+          "brand": "Sony-Ericsson"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Watches",
+      "type": "Accessories",
+      "rating": 4,
+      "img": "/categorieswatches.png",
+      "homeData": [
+        {
+          "item": "Rolex",
+          "info": "Over 100+ watches & Discount ",
+          "img": "/homeSlideBig2.png"
+        },
+        {
+          "item": "Versace",
+          "info": "Over 100+ watches & Discount ",
+          "img": "/slideairpodsmain.svg"
+        },
+        {
+          "item": "Diesel",
+          "info": "Over 100+ watches & Discount ",
+          "img": "/homeSlideBig2.png"
+        },
+        {
+          "item": "Poch",
+          "info": "Over 100+ watches & Discount ",
+          "img": "/slideairpodsmain.svg"
+        },
+        {
+          "item": "G-Shock",
+          "info": "Over 100+ watches & Discount ",
+          "img": "/homeSlideBig2.png"
+        }
+      ],
+      "categories": [
+        {
+          "id": 1,
+          "img": "/cartWatch.png",
+          "brand": "Rolex "
+        },
+        {
+          "id": 2,
+          "img": "/productProDetailWatch2.png",
+          "brand": "Versace "
+        },
+        {
+          "id": 3,
+          "img": "/productProDetailWatch3.png",
+          "brand": "G-Gun "
+        },
+        {
+          "id": 4,
+          "img": "/productProDetailWatch4.png",
+          "brand": "Rolex "
+        },
+        {
+          "id": 5,
+          "img": "/productProDetailWatch5.png",
+          "brand": "Poch "
+        },
+        {
+          "id": 6,
+          "img": "/productProDetailWatch6.png",
+          "brand": "Diesel "
+        },
+        {
+          "id": 7,
+          "img": "/productProDetailWatch7.png",
+          "brand": "Echez "
+        },
+        {
+          "id": 8,
+          "img": "/productProDetailWatch8.png",
+          "brand": "John Smith "
+        },
+        {
+          "id": 9,
+          "img": "/cartWatch.png",
+          "brand": "Zara "
+        },
+        {
+          "id": 10,
+          "img": "/cartWatch.png",
+          "brand": "Balenciaga"
+        },
+        {
+          "id": 11,
+          "img": "/cartWatch.png",
+          "brand": "Off-White"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "TShirt",
+      "type": "Clothing",
+      "rating": 1,
+      "img": "/neworiginshirt.svg",
+      "homeData": [
+        {
+          "item": "Off-White",
+          "info": "Over 100+ TShirt & Discount ",
+          "img": "/homeSlideBig2.png"
+        },
+        {
+          "item": "Versace",
+          "info": "Over 100+ TShirt & Discount ",
+          "img": "/slideairpodsmain.svg"
+        },
+        {
+          "item": "Tom Ford",
+          "info": "Over 100+ TShirt & Discount ",
+          "img": "/homeSlideBig2.png"
+        },
+        {
+          "item": "Burberry",
+          "info": "Over 100+ TShirt & Discount ",
+          "img": "/slideairpodsmain.svg"
+        },
+        {
+          "item": "Hollister",
+          "info": "Over 100+ TShirt & Discount ",
+          "img": "/homeSlideBig2.png"
+        }
+      ],
+      "categories": [
+        {
+          "id": 1,
+          "img": "/cartWatch.png",
+          "brand": "D&G"
+        },
+        {
+          "id": 2,
+          "img": "/productProDetailWatch2.png",
+          "brand": "Versace "
+        },
+        {
+          "id": 3,
+          "img": "/productProDetailWatch3.png",
+          "brand": "Burberry"
+        },
+        {
+          "id": 4,
+          "img": "/productProDetailWatch4.png",
+          "brand": "Tom Ford"
+        },
+        {
+          "id": 5,
+          "img": "/productProDetailWatch5.png",
+          "brand": "Atafo"
+        },
+        {
+          "id": 6,
+          "img": "/productProDetailWatch6.png",
+          "brand": "Zara"
+        },
+        {
+          "id": 7,
+          "img": "/productProDetailWatch7.png",
+          "brand": "Off-White"
+        },
+        {
+          "id": 8,
+          "img": "/productProDetailWatch8.png",
+          "brand": "Adidas"
+        },
+        {
+          "id": 9,
+          "img": "/cartWatch.png",
+          "brand": "Puma"
+        },
+        {
+          "id": 10,
+          "img": "/cartWatch.png",
+          "brand": "Fendi"
+        },
+        {
+          "id": 11,
+          "img": "/cartWatch.png",
+          "brand": "Armani"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Chairs",
+      "type": "Furniture",
+      "rating": 3,
+      "img": "/categorieschair.png",
+      "homeData": [
+        {
+          "item": "Vitafoam",
+          "info": "Over 100+ Furniture & Discount",
+          "img": "/homeSlideBig2.png"
+        },
+        {
+          "item": "Thermoplastic",
+          "info": "Over 100+ Furniture & Discount ",
+          "img": "/slideairpodsmain.svg"
+        },
+        {
+          "item": "Rida National",
+          "info": "Over 100+ Furniture & Discount ",
+          "img": "/homeSlideBig2.png"
+        },
+        {
+          "item": "Big Cats",
+          "info": "Over 100+ Furniture & Discount ",
+          "img": "/slideairpodsmain.svg"
+        },
+        {
+          "item": "Louis Carter",
+          "info": "Over 100+ Furniture & Discount ",
+          "img": "/homeSlideBig2.png"
+        }
+      ],
+      "categories": [
+        {
+          "id": 1,
+          "img": "/cartWatch.png",
+          "brand": "Vitafoam"
+        },
+        {
+          "id": 2,
+          "img": "/productProDetailWatch2.png",
+          "brand": "Versace "
+        },
+        {
+          "id": 3,
+          "img": "/productProDetailWatch3.png",
+          "brand": "Thermoplastic"
+        },
+        {
+          "id": 4,
+          "img": "/productProDetailWatch4.png",
+          "brand": "Rida National"
+        },
+        {
+          "id": 5,
+          "img": "/productProDetailWatch5.png",
+          "brand": "Big Cats"
+        },
+        {
+          "id": 6,
+          "img": "/productProDetailWatch6.png",
+          "brand": "Diesel "
+        },
+        {
+          "id": 7,
+          "img": "/productProDetailWatch7.png",
+          "brand": "Echez "
+        },
+        {
+          "id": 8,
+          "img": "/productProDetailWatch8.png",
+          "brand": "John Smith "
+        },
+        {
+          "id": 9,
+          "img": "/cartWatch.png",
+          "brand": "Zara "
+        },
+        {
+          "id": 10,
+          "img": "/cartWatch.png",
+          "brand": "Balenciaga"
+        },
+        {
+          "id": 11,
+          "img": "/cartWatch.png",
+          "brand": "Armani"
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "name": "Phones",
+      "type": "Electronics",
+      "img": "/categoriesphone.png",
+      "rating": 5,
+      "homeData": [
+        {
+          "item": "Samsung",
+          "info": "Over 100+ Phones & Discount ",
+          "img": "/homeSlideBig2.png"
+        },
+        {
+          "item": "Iphone",
+          "info": "Over 100+ Phones & Discount ",
+          "img": "/slideairpodsmain.svg"
+        },
+        {
+          "item": "Techno",
+          "info": "Over 100+ Phones & Discount ",
+          "img": "/homeSlideBig2.png"
+        },
+        {
+          "item": "Infinix",
+          "info": "Over 100+ Phones & Discount ",
+          "img": "/slideairpodsmain.svg"
+        },
+        {
+          "item": "Gionee",
+          "info": "Over 100+ Phones & Discount ",
+          "img": "/homeSlideBig2.png"
+        }
+      ],
+      "categories": [
+        {
+          "id": 1,
+          "img": "/cartWatch.png",
+          "brand": "Techno"
+        },
+        {
+          "id": 2,
+          "img": "/productProDetailWatch2.png",
+          "brand": "Infinix"
+        },
+        {
+          "id": 3,
+          "img": "/productProDetailWatch3.png",
+          "brand": "Apple"
+        },
+        {
+          "id": 4,
+          "img": "/productProDetailWatch4.png",
+          "brand": "Gionee"
+        },
+        {
+          "id": 5,
+          "img": "/productProDetailWatch5.png",
+          "brand": "Redmii"
+        },
+        {
+          "id": 6,
+          "img": "/productProDetailWatch6.png",
+          "brand": "Motorolla"
+        },
+        {
+          "id": 7,
+          "img": "/productProDetailWatch7.png",
+          "brand": "Hawuii"
+        },
+        {
+          "id": 8,
+          "img": "/productProDetailWatch8.png",
+          "brand": "Microsoft"
+        },
+        {
+          "id": 9,
+          "img": "/cartWatch.png",
+          "brand": "Itel"
+        },
+        {
+          "id": 10,
+          "img": "/cartWatch.png",
+          "brand": "Nokia"
+        },
+        {
+          "id": 11,
+          "img": "/cartWatch.png",
+          "brand": "Sony-Ericsson"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Watches",
+      "type": "Accessories",
+      "rating": 4,
+      "img": "/categorieswatches.png",
+      "homeData": [
+        {
+          "item": "Rolex",
+          "info": "Over 100+ watches & Discount ",
+          "img": "/homeSlideBig2.png"
+        },
+        {
+          "item": "Versace",
+          "info": "Over 100+ watches & Discount ",
+          "img": "/slideairpodsmain.svg"
+        },
+        {
+          "item": "Diesel",
+          "info": "Over 100+ watches & Discount ",
+          "img": "/homeSlideBig2.png"
+        },
+        {
+          "item": "Poch",
+          "info": "Over 100+ watches & Discount ",
+          "img": "/slideairpodsmain.svg"
+        },
+        {
+          "item": "G-Shock",
+          "info": "Over 100+ watches & Discount ",
+          "img": "/homeSlideBig2.png"
+        }
+      ],
+      "categories": [
+        {
+          "id": 1,
+          "img": "/cartWatch.png",
+          "brand": "Rolex "
+        },
+        {
+          "id": 2,
+          "img": "/productProDetailWatch2.png",
+          "brand": "Versace "
+        },
+        {
+          "id": 3,
+          "img": "/productProDetailWatch3.png",
+          "brand": "G-Gun "
+        },
+        {
+          "id": 4,
+          "img": "/productProDetailWatch4.png",
+          "brand": "Rolex "
+        },
+        {
+          "id": 5,
+          "img": "/productProDetailWatch5.png",
+          "brand": "Poch "
+        },
+        {
+          "id": 6,
+          "img": "/productProDetailWatch6.png",
+          "brand": "Diesel "
+        },
+        {
+          "id": 7,
+          "img": "/productProDetailWatch7.png",
+          "brand": "Echez "
+        },
+        {
+          "id": 8,
+          "img": "/productProDetailWatch8.png",
+          "brand": "John Smith "
+        },
+        {
+          "id": 9,
+          "img": "/cartWatch.png",
+          "brand": "Zara "
+        },
+        {
+          "id": 10,
+          "img": "/cartWatch.png",
+          "brand": "Balenciaga"
+        },
+        {
+          "id": 11,
+          "img": "/cartWatch.png",
+          "brand": "Off-White"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "TShirt",
+      "type": "Clothing",
+      "rating": 1,
+      "img": "/neworiginshirt.svg",
+      "homeData": [
+        {
+          "item": "Off-White",
+          "info": "Over 100+ TShirt & Discount ",
+          "img": "/homeSlideBig2.png"
+        },
+        {
+          "item": "Versace",
+          "info": "Over 100+ TShirt & Discount ",
+          "img": "/slideairpodsmain.svg"
+        },
+        {
+          "item": "Tom Ford",
+          "info": "Over 100+ TShirt & Discount ",
+          "img": "/homeSlideBig2.png"
+        },
+        {
+          "item": "Burberry",
+          "info": "Over 100+ TShirt & Discount ",
+          "img": "/slideairpodsmain.svg"
+        },
+        {
+          "item": "Hollister",
+          "info": "Over 100+ TShirt & Discount ",
+          "img": "/homeSlideBig2.png"
+        }
+      ],
+      "categories": [
+        {
+          "id": 1,
+          "img": "/cartWatch.png",
+          "brand": "D&G"
+        },
+        {
+          "id": 2,
+          "img": "/productProDetailWatch2.png",
+          "brand": "Versace "
+        },
+        {
+          "id": 3,
+          "img": "/productProDetailWatch3.png",
+          "brand": "Burberry"
+        },
+        {
+          "id": 4,
+          "img": "/productProDetailWatch4.png",
+          "brand": "Tom Ford"
+        },
+        {
+          "id": 5,
+          "img": "/productProDetailWatch5.png",
+          "brand": "Atafo"
+        },
+        {
+          "id": 6,
+          "img": "/productProDetailWatch6.png",
+          "brand": "Zara"
+        },
+        {
+          "id": 7,
+          "img": "/productProDetailWatch7.png",
+          "brand": "Off-White"
+        },
+        {
+          "id": 8,
+          "img": "/productProDetailWatch8.png",
+          "brand": "Adidas"
+        },
+        {
+          "id": 9,
+          "img": "/cartWatch.png",
+          "brand": "Puma"
+        },
+        {
+          "id": 10,
+          "img": "/cartWatch.png",
+          "brand": "Fendi"
+        },
+        {
+          "id": 11,
+          "img": "/cartWatch.png",
+          "brand": "Armani"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Chairs",
+      "type": "Furniture",
+      "rating": 3,
+      "img": "/categorieschair.png",
+      "homeData": [
+        {
+          "item": "Vitafoam",
+          "info": "Over 100+ Furniture & Discount",
+          "img": "/homeSlideBig2.png"
+        },
+        {
+          "item": "Thermoplastic",
+          "info": "Over 100+ Furniture & Discount ",
+          "img": "/slideairpodsmain.svg"
+        },
+        {
+          "item": "Rida National",
+          "info": "Over 100+ Furniture & Discount ",
+          "img": "/homeSlideBig2.png"
+        },
+        {
+          "item": "Big Cats",
+          "info": "Over 100+ Furniture & Discount ",
+          "img": "/slideairpodsmain.svg"
+        },
+        {
+          "item": "Louis Carter",
+          "info": "Over 100+ Furniture & Discount ",
+          "img": "/homeSlideBig2.png"
+        }
+      ],
+      "categories": [
+        {
+          "id": 1,
+          "img": "/cartWatch.png",
+          "brand": "Vitafoam"
+        },
+        {
+          "id": 2,
+          "img": "/productProDetailWatch2.png",
+          "brand": "Versace "
+        },
+        {
+          "id": 3,
+          "img": "/productProDetailWatch3.png",
+          "brand": "Thermoplastic"
+        },
+        {
+          "id": 4,
+          "img": "/productProDetailWatch4.png",
+          "brand": "Rida National"
+        },
+        {
+          "id": 5,
+          "img": "/productProDetailWatch5.png",
+          "brand": "Big Cats"
+        },
+        {
+          "id": 6,
+          "img": "/productProDetailWatch6.png",
+          "brand": "Diesel "
+        },
+        {
+          "id": 7,
+          "img": "/productProDetailWatch7.png",
+          "brand": "Echez "
+        },
+        {
+          "id": 8,
+          "img": "/productProDetailWatch8.png",
+          "brand": "John Smith "
+        },
+        {
+          "id": 9,
+          "img": "/cartWatch.png",
+          "brand": "Zara "
+        },
+        {
+          "id": 10,
+          "img": "/cartWatch.png",
+          "brand": "Balenciaga"
+        },
+        {
+          "id": 11,
+          "img": "/cartWatch.png",
+          "brand": "Armani"
+        }
+      ]
+    }
+  ],
+  "cart": [
+    {
+      "img": " /neworiginshirt.svg",
+      "name": "Origin shirt",
+      "price": "3,000N",
+      "color": "black/brown",
+      "shippingFee": 500,
+      "quantity": 1,
+      "id": 1
+    }
+  ]
 }
